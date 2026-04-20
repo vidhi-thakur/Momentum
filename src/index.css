@@ -32,10 +32,9 @@
 
 #root {
   width: 100%;
-  text-align: center;
   min-height: 100svh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 300px 1fr;
   box-sizing: border-box;
 }
 
