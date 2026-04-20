@@ -18,7 +18,7 @@
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;
-  color: var(--text);
+  color: var(--text-h);
   background: var(--bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -38,7 +38,7 @@
   box-sizing: border-box;
 }
 
-body {
+* {
   margin: 0;
 }
 
@@ -66,22 +66,4 @@ h2 {
   @media (max-width: 1024px) {
     font-size: 20px;
   }
-}
-p {
-  margin: 0;
-}
-
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
-}
-
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
 }
