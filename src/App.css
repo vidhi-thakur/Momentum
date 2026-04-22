@@ -1,5 +1,4 @@
 #left-sidebar {
-}
-
-#main-content {
+    background: white;
+    z-index: 10;
 }
