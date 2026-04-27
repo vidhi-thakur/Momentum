@@ -1,0 +1,17 @@
+.kanbanBoard {
+  width: 100%;
+  padding: var(--default-spacing-large);
+
+  .col-container {
+    width: 100%;
+    display: grid;
+    gap: var(--default-spacing);
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .col {
+    background-color: var(--bg-col);
+    border-radius: var(--default-radius-medium);
+    padding: var(--default-spacing);
+  }
+}
