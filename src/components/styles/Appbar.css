@@ -1,7 +1,6 @@
 .appbar {
   width: 100%;
   padding: var(--default-spacing) var(--default-spacing-large);
-  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,4 +1,7 @@
-#left-sidebar {
-    background: white;
-    z-index: 10;
+.main-content {
+  background-color: white;
+  border-radius: var(--default-radius-medium);
+  margin: var(--default-spacing);
+  overflow-x: hidden; 
+  overflow-y: auto;
 }

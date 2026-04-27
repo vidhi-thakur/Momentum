@@ -1,15 +1,17 @@
 import "./App.css";
 import Appbar from "./components/layout/Appbar";
 import Sidebar from "./components/layout/Sidebar";
+import KanbanBoard from "./features/kanban-board/KanbanBoard";
 
 function App() {
   return (
     <>
-      <section id="left-sidebar">
+      <section className="left-sidebar">
         <Sidebar />
       </section>
-      <section id="main-content">
+      <section className="main-content">
         <Appbar />
+        <KanbanBoard />
       </section>
     </>
   );
