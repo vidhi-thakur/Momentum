@@ -9,19 +9,19 @@
   --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
-  --default-spacing: 16px;
-  --default-spacing-small: 8px;
-  --default-spacing-medium: 24px;
-  --default-spacing-large: 32px;
-  --default-spacing-xlarge: 40px;
+  --spacing: 16px;
+  --spacing-small: 8px;
+  --spacing-medium: 24px;
+  --spacing-large: 32px;
+  --spacing-xlarge: 40px;
 
-  --default-radius: 8px;
-  --default-radius-small: 4px;
-  --default-radius-medium: 12px;
-  --default-radius-large: 16px;
-  --default-radius-xlarge: 20px;
+  --radius: 8px;
+  --radius-small: 4px;
+  --radius-medium: 12px;
+  --radius-large: 16px;
+  --radius-xlarge: 20px;
 
-  font: 18px/145% var(--sans);
+  font: 16px/145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
@@ -38,7 +38,7 @@
 
 #root {
   width: 100%;
-  min-height: 100svh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 260px 1fr;
   box-sizing: border-box;
