@@ -1,7 +1,7 @@
 .sidebar {
   height: 100%;
   width: 100%;
-  padding: var(--default-spacing);
+  padding: var(--spacing);
   img {
     cursor: pointer;
   }
