@@ -1,0 +1,23 @@
+.kanbanCard {
+  background-color: white;
+  padding: var(--spacing);
+  border-radius: var(--radius);
+
+  .assignedUser {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: pink;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .lhs {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing);
+    }
+  }
+}
