@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/KanbanBoard.css";
+import KanbanCard from "./KanbanCard";
 
 function KanbanBoard() {
   return (
@@ -12,6 +13,9 @@ function KanbanBoard() {
       <section className="col-container">
         <div className="col">
           <p>To Do</p>
+          <>
+          <KanbanCard />
+          </>
         </div>
         <div className="col">
           <p>In Progress</p>
