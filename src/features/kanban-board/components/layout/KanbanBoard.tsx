@@ -1,5 +1,5 @@
 import React from "react";
-import "./KanbanBoard.css";
+import "../styles/KanbanBoard.css";
 
 function KanbanBoard() {
   return (
